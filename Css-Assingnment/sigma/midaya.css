@@ -1,0 +1,324 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:769px) { 
+  
+
+    #header1
+    {
+        width: 100%;
+        position: relative;
+    }
+
+
+    nav
+    {
+        width: 80%;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+   
+    .menu
+    {
+        display: flex;
+        list-style-type: none;
+        padding: 10px 20px;
+    }
+
+
+    #b1
+    {
+        
+        padding: 0px;
+        border: 0px;
+        text-transform: capitalize;
+    }
+    
+
+    .menu li
+    {
+        padding: 5px;
+        text-align: center;
+    }
+
+    #check1
+    {
+        width: 50px;
+        height: 50px;
+        display: block;
+        right:  10px;
+        opacity: 0;
+    }
+
+    .menu li
+    {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+
+    #bars
+    {
+        display: block;
+        font-size: 24px;
+        position: absolute;
+        right: 25px;
+    }
+
+    .control
+    {
+        font-size: 12px;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    
+    .container
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text
+    {
+        padding: 0;
+    }
+
+    .text-container
+    {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    h1 , #p2
+    {
+        padding: 20px 0px;
+    }
+    
+    .control2
+    {
+        padding: 10px 0px;
+    }
+    
+     #input2
+    {
+        margin-bottom: 10px;
+    }       
+
+     .control3
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .main-image img
+    {
+        width: 100%;
+        height: 100%;    
+    }
+
+    .company-img img
+    {
+        width: 56px;
+    }
+
+    .page1menu
+    {
+        visibility: hidden;
+    }    
+
+    input:checked + .page1menu
+    {
+        visibility: visible;
+    }
+
+    #header2
+    {
+        width: 100%;
+    }
+
+
+    .container2
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 80%;
+        padding: 0px;
+    }
+
+    .textcontainer2
+    {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+
+    .container2 .image2
+    {
+        padding: 20px 0px;
+        width: 100%;
+        height: 100%;    
+    }
+
+    .image2 img
+    {
+        width: 100%;
+        height: 100%;  
+        /* text-align: center;   */
+    }
+
+
+    .cards
+    {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .spcard1
+    {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .card1
+    {
+        padding: 20px 0px;
+    }
+
+    .card-img , #p4
+    {
+        text-align: center;
+    }
+
+    #p5
+    {
+        padding: 10px 50px;
+    }
+    
+
+
+    .page4container
+    {
+        flex-direction: column-reverse;
+    }
+
+    .page4container .images4
+    {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .page4container
+    {
+        padding: 50px 0px ;
+    }
+
+    .images4 img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .textwrapper4
+    {
+        padding: 0px 50px;
+        text-align: center;
+    }
+
+    .textwrapper4 p
+    {
+        padding: 10px 30px;
+    }
+
+    .textwrapper4 h2
+    {
+        padding: 20px 0px;
+    }
+
+    .textwrapper4 #b5
+    {
+        font-size: 20px;
+        padding: 25px 100px;
+        border-radius: 8px;
+    }
+
+
+    .text-wrapper5
+    {
+        width: 100%;
+    }
+
+    .text-wrapper5 h2 
+    {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #page5p1
+    {
+    padding: 40px 60px;
+    }
+
+    .page5cards
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page5card , .page5card2
+    {
+        flex-direction: column;
+        border: 0;
+        text-align: center;
+    }
+
+    .box
+    {
+        flex-direction: column;
+        padding: 30px 0px;
+        border-radius: 0px;
+    }
+
+    
+    .page5text1 h4 , .page5text1
+    {
+       padding: 10px;
+    }
+
+    .page5images
+    {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .page5container
+    {
+        width: 100%;
+    }
+
+    /* page: 6px */
+
+    .flexcontainer
+    {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .menu1  li
+    {
+        display: none;
+    }
+
+    .menu1 #one
+    {
+        display: block;
+    }
+    
+    .flexcontainer img
+    {
+        width: 180px;
+    }
+   
+   
+ }

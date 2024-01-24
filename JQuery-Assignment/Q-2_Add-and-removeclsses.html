@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bhargav
+        {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: teal;
+            color: gold;
+            padding: 5px 0px;
+        }
+        hr
+        {
+            border: 1px solid black;
+        }
+        #h21
+        {
+            text-align: left;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body> 
+    <h1 id="h21">
+        Q :- 2 How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?
+    </h1>
+    <h2>bhargav</h2>
+    <hr>
+    <button class="add">Add</button>
+    <button class="remove">Remove</button>
+    <button class="toggle">Toggle</button>
+
+    <script src="../../JQuery/jquery-3.7.1.min.js"></script>
+
+
+    <!-- Apply CSS Using JQuery -->
+    <script>
+        $("body").css({ 
+        backgroundColor: "#f0dc82",
+        textAlign: 'center'
+      });
+      $("button").css({
+        backgroundColor: "brown",
+        color: "pink",
+        padding: "10px 30px", 
+      });
+    </script>
+
+
+    <!-- JQuery for Add Class and Remove Class-->
+    <script>
+        $(document).ready (function () 
+        {
+           $('.add').click (function () {
+            $('h2').addClass('bhargav')
+           });  // add class ko add kare che.
+
+           $('.remove').click (function () {
+            $('h2').removeClass('bhargav')
+           });  // remove class ko remove kare che.
+
+           $('.toggle').click (function () {
+            $('h2').toggleClass('bhargav')
+           });  // Toggle class ko add and remove  kam kare che.
+        });
+    </script>
+</body>
+</html>

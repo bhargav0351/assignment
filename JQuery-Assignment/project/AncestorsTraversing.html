@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancestors Traversing</title>
+</head>
+<body class="great-great-grandparent">
+    Great Great Grandparent
+    <div class="great-grandparent">
+        Great Grandparent
+        <ul class="grandparent">
+            Grandparent
+            <li class="parent">
+                Parent
+                <span class="chlid1">
+                    span
+                </span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="../../../JQuery/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $('span').parents().css({border: '3px solid red' , padding: '20px', listStyleType: 'none' , margin : '0' , width : '90%'});
+        $(".chlid1").css({border: '3px solid #d9d9d9' , padding: '3px 100px 5px 10px'});
+    </script>
+</body>
+</html>
